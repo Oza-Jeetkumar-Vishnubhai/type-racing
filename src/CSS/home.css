@@ -1,0 +1,39 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-text{
+    width:80%;
+    line-height: 2;
+    background-color: rgb(223, 223, 223);
+    color: black;
+    margin:1rem 0;
+    padding:1rem;
+    border-radius: 20px;
+}
+.sticky-top{
+    position:sticky;
+    top:0
+}
+.sticky-bottom{
+    position:sticky;
+    bottom:2%;
+}
+#typing-pad{
+    margin:20px
+}
+#inp{
+    width:80vw;
+    border-radius: 15px;
+}
+div[data-highlightword] {
+    position: relative;
+}
+div[data-highlightword]::before {
+    content: attr(data-highlightword);
+    color: #f90;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
