@@ -14,7 +14,7 @@ const Track = ({ cnt, opcnt,myId,oppId }) => {
   if (opcnt < 0) {
     opcnt = 0;
   }
-  if(cnt==5 && !al)
+  if(cnt==120 && !al)
   {
     console.log(myId,"won")
     // alert(myId + "won")
@@ -23,7 +23,7 @@ const Track = ({ cnt, opcnt,myId,oppId }) => {
     al=true;
   }
   al=false;
-  if(opcnt==4)
+  if(opcnt==115)
   {
     console.log(oppId,"won")
     // alert(oppId + "won").
