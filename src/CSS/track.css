@@ -4,7 +4,7 @@
     background-color: aqua;
 }
 .trackContainer{
-    height:80vh;
+    height:600px;
     justify-content:space-around;
     background-color: #343a40;
 }
@@ -13,6 +13,6 @@
     flex-direction: column-reverse;
     position: relative;
 }
-.left-car{
+.left-car,.right-car{
     position: absolute;   
 }

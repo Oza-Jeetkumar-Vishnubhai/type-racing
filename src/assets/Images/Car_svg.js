@@ -10,7 +10,7 @@ const Car_svg = () => {
       x="0"
       y="0"
       viewBox="0 0 512 512"
-      style={{ "enable-background": "new 0 0 512 512" }}
+      style={{ "enableBackground": "new 0 0 512 512" }}
       className=""
     >
       <g>
